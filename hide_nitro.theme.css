@@ -1,4 +1,4 @@
-/* //META{ "name": "Hide Nitro", "description": "Hides Nitro everywhere, when it's done. Inspired by cheesits456's RemoveButtons.theme.css: https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e", "author": "Theoteno", "version": "0.9.0"} *//**/
+/* //META{ "name": "Hide Nitro", "description": "BetterDiscord theme/plugin; hides Nitros everywhere, when it's done. Inspired by cheesits456's RemoveButtons.theme.css: https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e", "author": "Theoteno", "version": "0.9.0"} *//**/
 
 /* Hide Nitro message bar button*/
 .da-buttons > button[aria-label="Send a gift"] {
