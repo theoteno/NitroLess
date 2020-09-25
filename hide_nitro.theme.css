@@ -1,0 +1,26 @@
+/* //META{ "name": "Hide Nitro", "description": "Hides Nitro everywhere, when it's done. Inspired by cheesits456's RemoveButtons.theme.css: https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e", "author": "Theoteno", "version": "0.9.0"} *//**/
+
+/* Hide Nitro message bar button*/
+.da-buttons > button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide Nitro home screen button*/
+.da-content > a[href="/store"] {
+    display: none;
+}
+
+/* Hide Nitro Store screen (not working in settings)*/
+.da-applicationStore {
+    display: none;
+}
+
+/*I don't know yet: how to hide Nitros in setting, when they have the same classes as everything else... I'm trying to change them by using their titles... */
+.da-item > [textContent="Discord Nitro"] {
+    display: none;
+}
+
+/*v2-3 feature?*/
+.da-nitro {
+    display: none;
+}
