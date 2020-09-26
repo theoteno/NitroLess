@@ -1,0 +1,28 @@
+//META{ "name": "NitroLess", "description": "Minimalistic BetterDiscord theme; hides Nitro everywhere, and it's done! But in the emoji selector, the linked plugin should work.", "website":"https://betterdiscordlibrary.com/plugins/HideDisabledEmojis", "author": "Theoteno", "version": "1.0.0"} *//{}
+@import url(https://betterdiscordlibrary.com/plugins/HideDisabledEmojis);
+/*Inspired by cheesits456's RemoveButtons.theme.css:* https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e"*/
+/*Thanks to: cheesits456 for the inspiration!; And void, Asteria from the BetterDiscord server, for :nth-child() !*/
+
+/* Hide Nitro message bar button*/
+.da-buttons > button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide Nitro home tab button*/
+.da-content > a[href="/store"] {
+    display: none;
+}
+
+/*Hides Nitro (+billing) from the settings!*/
+.da-item:nth-child(n+6):nth-child(-n+11) {
+    display: none;
+}
+
+/*Almost forgot about the guild icon.*/
+.da-guildIconContainer {
+    display: none;
+}
+
+/*.da-emojiItemDisabled Someone already made a plugin for this, so it's not that important{
+    display: none;
+}*/
