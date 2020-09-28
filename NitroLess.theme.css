@@ -1,7 +1,27 @@
-//META{ "name": "NitroLess", "description": "Minimalistic BetterDiscord theme; hides Nitro everywhere, and it's done! But in the emoji selector, the linked plugin should work.", "website":"https://betterdiscordlibrary.com/plugins/HideDisabledEmojis", "author": "Theoteno", "version": "1.0.0"} *//{}
-@import url(https://betterdiscordlibrary.com/plugins/HideDisabledEmojis);
+//META {"name": "NitroLess", "description": "Minimalistic BetterDiscord theme; hides Nitro everywhere, and it's done!", "website": "https://github.com/Theoteno/NitroLess", "author": "Theoteno", "version": "1.0.0"} *//{}
+@import url(https://github.com/Theoteno/NitroLess);
 /*Inspired by cheesits456's RemoveButtons.theme.css:* https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e"*/
 /*Thanks to: cheesits456 for the inspiration!; And void, Asteria from the BetterDiscord server, for :nth-child() !*/
+
+.da-wordmark{
+  display: none;
+}
+
+.da-bg {
+  color: RGB(55,200,255);
+}
+
+.bd-card-title > span:nth-child(2) {
+  color: white;
+}
+
+.author{
+  color: RGB(55,200,255);
+}
+
+.name{
+  color: RGB(55,200,255);
+}
 
 /* Hide Nitro message bar button*/
 .da-buttons > button[aria-label="Send a gift"] {
@@ -18,11 +38,19 @@
     display: none;
 }
 
+.item-1tOPte {
+  display: flex;
+}
+
 /*Almost forgot about the guild icon.*/
 .da-guildIconContainer {
     display: none;
 }
-
-/*.da-emojiItemDisabled Someone already made a plugin for this, so it's not that important{
+/*and the pop-up list one.*/
+.da-colorPremium {
+    display: none;
+}
+/* Hides disabled emojis, but not the place where they were...
+.da-emojiItemDisabled {
     display: none;
 }*/
